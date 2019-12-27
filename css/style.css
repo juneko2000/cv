@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(238, 227, 177);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DDC488;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(201, 176, 118);
+}
+
+.active {
+  background-color: rgb(201, 176, 118);
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  text-align: justify;
+  word-spacing:5px;
+}
+
+table.empty {
+  border-collapse:separate;
+  empty-cells:hide;
+}
+
+td.emp {
+  padding:50px;
+  border-collapse: separate;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+td.em {
+  border-collapse: separate;
+}
+
+table.emp {
+  border: 10px;
+}
+
+h2.emp, h3 {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: lighter;
+  word-spacing:10px;
+  text-align: justify;
+}
+
+h1.emp {
+  font-size: 38px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: normal;
+  word-wrap: suppress 10px;
+  text-align: justify;
+}
+
+table.empt {
+  border-collapse:separate;
+  empty-cells:hide;
+  padding:50px;
+  border-collapse: separate;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+p.profile {
+  font-size: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: normal;
+  word-wrap: suppress 10px;
+  text-align: justify;
+}
+
+p.skill {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+}
+
+p.educate {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+}
